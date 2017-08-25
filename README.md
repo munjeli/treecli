@@ -1,2 +1,9 @@
 # treecli
-a cli to explore graph and tree functions with visualization and performance metrics in go
+[![Build Status][travis-badge]][travis]
+
+[travis-badge]: https://travis-ci.org/munjeli/treecli.svg?branch=master
+[travis]: https://travis-ci.org/munjeli/treecli
+
+basic setup with build and test for a go application
+
+# about
