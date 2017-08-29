@@ -57,6 +57,10 @@
 			"revision": ""
 		},
 		{
+			"path": "github.com/munjeli/treecli/treecli",
+			"revision": ""
+		},
+		{
 			"checksumSHA1": "rTNABfFJ9wtLQRH8uYNkEZGQOrY=",
 			"path": "github.com/posener/complete",
 			"revision": "2100d1b06c06462a8a47bfc41a7f24a5d60a1420",

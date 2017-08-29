@@ -1,8 +1,6 @@
 package command
 
-import (
-	"strings"
-)
+import "strings"
 
 type CreateCommand struct {
 	Meta
@@ -10,7 +8,6 @@ type CreateCommand struct {
 
 func (c *CreateCommand) Run(args []string) int {
 	// Write your code here
-
 	return 0
 }
 
