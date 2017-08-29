@@ -29,8 +29,8 @@ bin: deps ## Build debug/test build
 
 releasebin: deps
 	@go get github.com/mitchellh/gox
-	@grep 'const VersionPrerelease = "dev"' version/version.go > /dev/null ; if [ $$? -eq 0 ]; then \
-		echo "ERROR: You must remove prerelease tags from version/version.go prior to release."; \
+	@grep 'const VersionPrerelease = "dev"' version.go > /dev/null ; if [ $$? -eq 0 ]; then \
+		echo "ERROR: You must remove prerelease tags from version.go prior to release."; \
 		exit 1; \
 	fi
 	@sh -c "$(CURDIR)/scripts/build.sh"
@@ -51,6 +51,7 @@ dev: deps ## Build and install a development build
 	fi
 	@mkdir -p pkg/$(GOOS)_$(GOARCH)
 	@go install -ldflags '$(GOLDFLAGS)'
+	# I have to figure out why they're copying here
 	@cp $(GOPATH)/bin/treecli bin
 	@cp $(GOPATH)/bin/treecli pkg/$(GOOS)_$(GOARCH)
 
