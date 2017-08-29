@@ -1,6 +1,103 @@
 {
 	"comment": "",
 	"ignore": "test",
-	"package": [],
+	"package": [
+		{
+			"path": "bytes",
+			"revision": ""
+		},
+		{
+			"path": "fmt",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "GCTVJ1J/SGZstNZauuLAnTFOhGA=",
+			"path": "github.com/armon/go-radix",
+			"revision": "1fca145dffbcaa8fe914309b1ec0cfc67500fe61",
+			"revisionTime": "2017-07-27T15:54:43Z"
+		},
+		{
+			"checksumSHA1": "oTmBS67uxM6OXB/+OJUAG9LK4jw=",
+			"path": "github.com/bgentry/speakeasy",
+			"revision": "4aabc24848ce5fd31929f7d1e4ea74d3709c14cd",
+			"revisionTime": "2017-04-17T20:07:03Z"
+		},
+		{
+			"checksumSHA1": "cdOCt0Yb+hdErz8NAQqayxPmRsY=",
+			"path": "github.com/hashicorp/errwrap",
+			"revision": "7554cd9344cec97297fa6649b055a8c98c2a1e55",
+			"revisionTime": "2014-10-28T05:47:10Z"
+		},
+		{
+			"checksumSHA1": "g7uHECbzuaWwdxvwoyxBwgeERPk=",
+			"path": "github.com/hashicorp/go-multierror",
+			"revision": "83588e72410abfbe4df460eeb6f30841ae47d4c4",
+			"revisionTime": "2017-06-22T06:09:55Z"
+		},
+		{
+			"checksumSHA1": "U6lX43KDDlNOn+Z0Yyww+ZzHfFo=",
+			"path": "github.com/mattn/go-isatty",
+			"revision": "fc9e8d8ef48496124e79ae0df75490096eccf6fe",
+			"revisionTime": "2017-03-22T23:44:13Z"
+		},
+		{
+			"checksumSHA1": "gPuHq0UytpuYPb2YWmFVb22Twcc=",
+			"path": "github.com/mitchellh/cli",
+			"revision": "0ce7cd515f64496ee660ab19f6bbf373945d3af0",
+			"revisionTime": "2017-08-24T19:02:09Z"
+		},
+		{
+			"checksumSHA1": "XcDMPCOecKz/95FcguyJZMfN2+4=",
+			"path": "github.com/munjeli/treecli",
+			"revision": "24bc3b664986f0ce03a67d3e601c807fe5997166",
+			"revisionTime": "2017-08-25T09:23:22Z"
+		},
+		{
+			"path": "github.com/munjeli/treecli/command",
+			"revision": ""
+		},
+		{
+			"checksumSHA1": "rTNABfFJ9wtLQRH8uYNkEZGQOrY=",
+			"path": "github.com/posener/complete",
+			"revision": "2100d1b06c06462a8a47bfc41a7f24a5d60a1420",
+			"revisionTime": "2017-08-25T06:44:15Z"
+		},
+		{
+			"checksumSHA1": "NB7uVS0/BJDmNu68vPAlbrq4TME=",
+			"path": "github.com/posener/complete/cmd",
+			"revision": "2100d1b06c06462a8a47bfc41a7f24a5d60a1420",
+			"revisionTime": "2017-08-25T06:44:15Z"
+		},
+		{
+			"checksumSHA1": "kuS9vs+TMQzTGzXteL6EZ5HuKrU=",
+			"path": "github.com/posener/complete/cmd/install",
+			"revision": "2100d1b06c06462a8a47bfc41a7f24a5d60a1420",
+			"revisionTime": "2017-08-25T06:44:15Z"
+		},
+		{
+			"checksumSHA1": "DMo94FwJAm9ZCYCiYdJU2+bh4no=",
+			"path": "github.com/posener/complete/match",
+			"revision": "2100d1b06c06462a8a47bfc41a7f24a5d60a1420",
+			"revisionTime": "2017-08-25T06:44:15Z"
+		},
+		{
+			"checksumSHA1": "7NuioK0dEzBI+OOdVzTARrHsXgI=",
+			"path": "golang.org/x/sys/unix",
+			"revision": "2d6f6f883a06fc0d5f4b14a81e4c28705ea64c15",
+			"revisionTime": "2017-08-25T18:47:02Z"
+		},
+		{
+			"path": "os",
+			"revision": ""
+		},
+		{
+			"path": "strings",
+			"revision": ""
+		},
+		{
+			"path": "testing",
+			"revision": ""
+		}
+	],
 	"rootPath": "github.com/munjeli/treecli"
 }
