@@ -51,7 +51,6 @@ dev: deps ## Build and install a development build
 	fi
 	@mkdir -p pkg/$(GOOS)_$(GOARCH)
 	@go install -ldflags '$(GOLDFLAGS)'
-	# I have to figure out why they're copying here
 	@cp $(GOPATH)/bin/treecli bin
 	@cp $(GOPATH)/bin/treecli pkg/$(GOOS)_$(GOARCH)
 
