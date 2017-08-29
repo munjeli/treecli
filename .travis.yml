@@ -1,7 +1,5 @@
 env:
-    - USER=travis
-    - OS_TYPE=centos
-    - OS_VERSION=7
+    - USER=travis OS_TYPE=centos OS_VERSION=7
 
 sudo: false
 
