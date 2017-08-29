@@ -21,7 +21,7 @@ To install, use `go get`:
 ```bash
 $ go get -d github.com/munjeli/treecli
 ```
-cd into the directory and run `make` to run gofmt and build a single binary with ([https://github.com/mitchellh/gox](gox)).
+cd into the directory and run `make` to run gofmt and build a single binary with ([gox](https://github.com/mitchellh/gox)).
 There isn't an official distribution of treecli yet, so the Makefile is just set up for
 development.
 
